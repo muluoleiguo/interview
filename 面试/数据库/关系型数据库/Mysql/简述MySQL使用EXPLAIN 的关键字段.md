@@ -1,0 +1,21 @@
+explain关键字用于分析sql语句的执行情况，可以通过他进行sql语句的性能分析。
+
+type：表示连接类型，从好到差的类型排序为
+
+* system：系统表，数据已经加载到内存里。
+* const：常量连接，通过索引一次就找到。
+* eq_ref：唯一性索引扫描，返回所有匹配某个单独值的行。
+* ref：非主键非唯一索引等值扫描，const或eq_ref改为普通非唯一索引。
+* range：范围扫描，在索引上扫码特定范围内的值。
+* index：索引树扫描，扫描索引上的全部数据。
+* all：全表扫描。
+key：显示MySQL实际决定使用的键。
+
+key_len：显示MySQL决定使用的键长度，长度越短越好
+
+Extra：额外信息
+
+* Using filesort：MySQL使用外部的索引排序，很慢需要优化。
+* Using temporary：使用了临时表保存中间结果，很慢需要优化。
+* Using index：使用了覆盖索引。
+* Using where：使用了where。

@@ -1,0 +1,5 @@
+利用undo log保障原子性。该log保存了事务发生之前的数据的一个版本，可以用于回滚，从而保证事务原子性。
+
+利用redo log保证事务的持久性，该log关注于事务的恢复.在重启mysql服务的时候，根据redo log进行重做，从而使事务有持久性。
+
+利用undo log+redo log保障一致性。事务中的执行需要redo log，如果执行失败，需要undo log 回滚。

@@ -1,0 +1,1 @@
+InnoDB通过redo log保证即使数据库发生异常重启，之前提交的记录都不会丢失，这个能力称为crash-safe。
