@@ -1,6 +1,6 @@
 
 
-
+## 操作系统理论知识
 
 1.[什么是操作系统？请简要概述一下](OS/1.md)
 
@@ -71,4 +71,22 @@
 34.[实时操作系统的概念](OS/34.md)
 
 35.[优先级反转是什么？如何解决](OS/35.md)
+
+
+
+
+
+## Linux
+
+#### 1.常用命令
+
+* [netstat](Linux/command/netstat.md)
+* [tcpdump](Linux/command/tcpdump.md)
+* [ipcs](Linux/command/ipcs.md)
+* [ipcrm](Linux/command/ipcrm.md)
+* [awk](Linux/command/awk.md)
+* [ps](Linux/command/ps.md)
+* [free](Linux/command/free.md)
+* [df](Linux/command/df.md)
+* [du](Linux/command/du.md)
 
