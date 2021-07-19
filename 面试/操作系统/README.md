@@ -56,7 +56,7 @@
 
 27.[死锁是怎样产生的](OS/27.md)？
 
-28.[如何解决死锁问题](OS/28.md)？
+28.[如何处理死锁问题](OS/28.md)？
 
 29.[什么是虚拟地址，什么是物理地址](OS/29.md)？
 
@@ -89,4 +89,14 @@
 * [free](Linux/command/free.md)
 * [df](Linux/command/df.md)
 * [du](Linux/command/du.md)
+
+#### 2.Linux的锁机制
+
+* 4种锁机制
+  * [mutex互斥锁](Linux/lock/mutex.md)
+  * [rwlock读写锁](Linux/lock/rwlock.md)	
+  * [spinlock自旋锁](Linux/lock/spinlock.md)
+  * [RCU](Linux/lock/RCU.md)
+* [互斥锁和读写锁的区别](Linux/lock/mutex和rwlock区别.md)
+* [自旋锁与互斥锁的区别](Linux/lock/mutex和spinlock区别.md)
 
