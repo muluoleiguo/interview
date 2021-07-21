@@ -180,3 +180,28 @@
 
 
 
+
+
+## NoSQL非关系型数据库——Redis
+
+1. [Redis是什么](Redis/1.md)
+2. [Redis的底层数据结构](Redis/2.md)
+3. [Redis常见数据结构以及使用场景分别是什么？](Redis/3.md)
+4. [有MySQL不就够用了吗？为什么要用Redis这种新的数据库？](Redis/4.md)
+5. [C++中的Map也是一种缓存型数据结构，为什么不用Map，而选择Redis做缓存？](Redis/5.md)
+6. [Memcached与Redis的区别都有哪些？](Redis/6.md)
+   * [请你回答一下mongodb和redis的区别](Redis/6-1.md)
+7. [缓存中常说的热点数据和冷数据是什么？](Redis/7.md)
+8. [Redis 为什么是单线程的而不采用多线程方案？](Redis/8.md)
+9. [了解Redis的线程模型吗？可以大致说说吗？](Redis/9.md)
+10. [Redis设置过期时间的两种方案是什么？](Redis/10.md)
+11. [缓存雪崩、缓存穿透、缓存预热、缓存更新、缓存击穿、缓存降级](Redis/11.md)
+12. [Redis持久化机制可以说一说吗？](Redis/12.md)
+13. [AOF重写了解吗？可以简单说说吗？](Redis/13.md)
+14. [是否使用Redis集群，集群的原理是什么](Redis/14.md)
+15. [如何解决Redis的并发竞争Key问题](Redis/15.md)
+16. [如何保证缓存与数据库双写时的数据一致性](Redis/16.md)
+17. [数据为什么会出现不一致的情况？](Redis/17.md)
+18. [常见的数据优化方案你了解吗？](Redis/18.md)
+19.  [请你来说一说Redis的定时机制怎么实现的](Redis/19.md)
+
