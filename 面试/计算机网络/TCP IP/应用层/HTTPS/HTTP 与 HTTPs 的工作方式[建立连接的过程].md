@@ -27,3 +27,11 @@ HTTPS（Hyper Text Transfer Protocol over Secure Socket Layer）是以安全为�
 当服务端和客户端的 finish 报文交换完成之后，SSL 连接就算建立完成了，之后就进行和 HTTP 相同的通信过程，唯一不同的是在 HTTP 通信过程中并不是采用明文传输，而是采用对称加密的方式，其中对称密钥已经在 SSL 的建立过程中协商好了。
 
 
+
+* https协议为什么安全？
+  ——连接建立阶段基于ssl安全验证；数据传输阶段加密，
+* https的ssl连接过程
+  ——一张图就够了：
+  ![image](https://pic2.zhimg.com/v2-e03691ec1b4cec38f18360dcc4b2e7ad_b.jpg)
+* GET和POST的区别
+  https://www.cnblogs.com/logsharing/p/8448446.html
