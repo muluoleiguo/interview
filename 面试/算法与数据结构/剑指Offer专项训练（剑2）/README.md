@@ -38,7 +38,7 @@
 
 #### [剑指 Offer II 034. 外星语言是否排序](https://leetcode-cn.com/problems/lwyVBB/)  [题解](https://leetcode-cn.com/problems/lwyVBB/solution/tong-guan-jian-2-mo-ni-by-muluo-2-wb7d/)
 
-#### 
+
 
 #### [剑指 Offer II 119. 最长连续序列](https://leetcode-cn.com/problems/WhsWhI/) [题解](https://leetcode-cn.com/problems/WhsWhI/solution/tong-guan-jian-2-shuang-bai-yi-ti-san-ji-neiz/)
 
@@ -60,7 +60,7 @@
 
 #### [剑指 Offer II 029. 排序的循环链表](https://leetcode-cn.com/problems/4ueAj6/)  [题解](https://leetcode-cn.com/problems/4ueAj6/solution/tong-guan-jian-2-chao-100-luo-ji-jian-da-reg4/)
 
-#### 
+
 
 ### 排序
 
@@ -82,13 +82,13 @@
 
 #### [剑指 Offer II 084. 含有重复元素集合的全排列 ](https://leetcode-cn.com/problems/7p8L0Z/)  [题解](https://leetcode-cn.com/problems/7p8L0Z/solution/tong-guan-jian-2-shuang-bai-dfs-hui-su-j-rz80/)
 
-#### 
+
 
 #### [剑指 Offer II 109. 开密码锁](https://leetcode-cn.com/problems/zlDJc7/)   [题解](https://leetcode-cn.com/problems/zlDJc7/solution/tong-guan-jian-2-shuang-bai-cong-yi-xian-ha1y/)
 
 
 
-#### 
+
 
 ### 双指针
 
@@ -102,7 +102,7 @@
 
 #### [剑指 Offer II 018. 有效的回文](https://leetcode-cn.com/problems/XltzEq/)  [题解](https://leetcode-cn.com/problems/XltzEq/solution/tong-guan-jian-2-shuang-bai-shuang-zhi-z-lx0m/)
 
-
+#### [剑指 Offer II 019. 最多删除一个字符得到回文](https://leetcode-cn.com/problems/RQku0D/)  [题解](https://leetcode-cn.com/problems/RQku0D/solution/tong-guan-jian-2-shuang-zhi-zhen-by-mulu-wmug/)
 
 #### [剑指 Offer II 021. 删除链表的倒数第 n 个结点](https://leetcode-cn.com/problems/SLwz0R/) [题解](https://leetcode-cn.com/problems/SLwz0R/solution/tong-guan-jian-2-shuang-bai-wei-tou-jie-beovf/)
 
@@ -170,7 +170,7 @@
 
 
 
-#### 
+#### [剑指 Offer II 020. 回文子字符串的个数](https://leetcode-cn.com/problems/a7VOhD/)  [题解](https://leetcode-cn.com/problems/a7VOhD/solution/tong-guan-jian-2-yi-ti-san-jie-cong-mei-xbdbq/)
 
 #### [剑指 Offer II 085. 生成匹配的括号](https://leetcode-cn.com/problems/IDBivT/)  [题解](https://leetcode-cn.com/problems/IDBivT/solution/tong-guan-jian-2-shuang-bai-yi-ti-shuang-4rxc/)
 
@@ -202,7 +202,7 @@
 
 #### [剑指 Offer II 103. 最少的硬币数目](https://leetcode-cn.com/problems/gaM7Ch/)  [题解](https://leetcode-cn.com/problems/gaM7Ch/solution/tong-guan-jian-2-dp-kong-jian-on-ji-hu-s-kvvq/)
 
-#### 
+
 
 #### [剑指 Offer II 107. 矩阵中的距离](https://leetcode-cn.com/problems/2bCMpM/)  [题解](https://leetcode-cn.com/problems/2bCMpM/solution/tong-guan-jian-2-shuang-bai-yi-ti-duo-ji-afh5/)
 
