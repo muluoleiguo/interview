@@ -1,7 +1,9 @@
+### sizeof(1==1) 在 C 和 C++ 中分别是什么结果？
+
 面试高频指数：★☆☆☆☆
 C 语言代码：
 
-```
+```c
 #include<stdio.h>
 
 void main(){
@@ -16,9 +18,7 @@ void main(){
 
 C++ 代码：
 
-
-
-```
+```c++
 #include <iostream>
 using namespace std;
 

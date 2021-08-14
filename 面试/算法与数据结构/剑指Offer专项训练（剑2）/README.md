@@ -54,6 +54,8 @@
 
 #### [剑指 Offer II 024. 反转链表](https://leetcode-cn.com/problems/UHnkqh/)  [题解](https://leetcode-cn.com/problems/UHnkqh/solution/tong-guan-jian-2-shuang-bai-bu-fei-hua-l-sc9u/)
 
+#### [剑指 Offer II 026. 重排链表](https://leetcode-cn.com/problems/LGjMqU/)  [题解](https://leetcode-cn.com/problems/LGjMqU/solution/tong-guan-jian-2-shuang-zhi-zhen-by-mulu-pz0g/)
+
 #### [剑指 Offer II 027. 回文链表](https://leetcode-cn.com/problems/aMhZSa/)  [题解](https://leetcode-cn.com/problems/aMhZSa/solution/tong-guan-jian-2-shuang-bai-by-muluo-2-jmmx/)
 
 #### [剑指 Offer II 025. 链表中的两数相加](https://leetcode-cn.com/problems/lMSNwu/)  [题解](https://leetcode-cn.com/problems/lMSNwu/solution/tong-guan-jian-2-yuan-di-xiu-gai-mei-you-zhry/)
@@ -132,7 +134,7 @@
 
 #### [剑指 Offer II 014. 字符串中的变位词](https://leetcode-cn.com/problems/MPnaiL/)  [题解](https://leetcode-cn.com/problems/MPnaiL/solution/tong-guan-jian-2-chao-100-hua-dong-chuan-40yi/)
 
-
+#### [剑指 Offer II 016. 不含重复字符的最长子字符串](https://leetcode-cn.com/problems/wtcaE1/)  [题解](https://leetcode-cn.com/problems/wtcaE1/solution/tong-guan-jian-2-hua-dong-chuang-kou-by-tlv99/)
 
 #### [剑指 Offer II 017. 含有所有字符的最短字符串](https://leetcode-cn.com/problems/M1oyTv/)  [题解](https://leetcode-cn.com/problems/M1oyTv/solution/tong-guan-jian-2-on-hua-dong-chuang-kou-nxzoz/)
 
