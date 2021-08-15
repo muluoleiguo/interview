@@ -1,0 +1,68 @@
+### this 指针：指向类的**当前对象**的**指针常量**
+
+1. `this` 指针是一个隐含于每一个非静态成员函数中的特殊指针。它指向调用该成员函数的那个对象。
+2. 当对一个对象调用成员函数时，编译程序先将对象的地址赋给 `this` 指针，然后调用成员函数，每次成员函数存取数据成员时，都隐式使用 `this` 指针。
+3. 当一个成员函数被调用时，自动向它传递一个隐含的参数，该参数是一个指向这个成员函数所在的对象的指针。
+4. `this` 指针被隐含地声明为: `ClassName *const this`，这意味着不能给 `this` 指针赋值；在 `ClassName` 类的 `const` 成员函数中，`this` 指针的类型为：`const ClassName* const`，这说明不能对 `this` 指针所指向的这种对象是不可修改的（即不能对这种对象的数据成员进行赋值操作）；
+5. `this` 并不是一个常规变量，而是个右值，所以不能取得 `this` 的地址（不能 `&this`）。
+6. 在以下场景中，经常需要显式引用 `this` 指针：
+   1. 为实现对象的链式引用；
+   2. 为避免对同一对象进行赋值操作；
+   3. 在实现一些数据结构时，如 `list`。
+
+
+# delete this 合法吗？
+
+合法，但：
+
+1. 必须保证 this 对象是通过 `new`（不是 `new[]`、不是 placement new、不是栈上、不是全局、不是其他对象成员）分配的
+2. 必须保证调用 `delete this` 的成员函数是最后一个调用 this 的成员函数
+3. 必须保证成员函数的 `delete this ` 后面没有调用 this 了
+4. 必须保证 `delete this` 后没有人使用了
+
+
+```c++
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+class A
+{
+public:
+    void set_name(string tmp)
+    {
+        this->name = tmp;
+    }
+    void set_age(int tmp)
+    {
+        this->age = age;
+    }
+    void set_sex(int tmp)
+    {
+        this->sex = tmp;
+    }
+    void show()
+    {
+        cout << "Name: " << this->name << endl;
+        cout << "Age: " << this->age << endl;
+        cout << "Sex: " << this->sex << endl;
+    }
+
+private:
+    string name;
+    int age;
+    int sex;
+};
+
+int main()
+{
+    A *p = new A();
+    p->set_name("Alice");
+    p->set_age(16);
+    p->set_sex(1);
+    p->show();
+
+    return 0;
+}
+```
+

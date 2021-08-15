@@ -46,9 +46,11 @@
 
 ### 栈
 
+#### [剑指 Offer II 036. 后缀表达式](https://leetcode-cn.com/problems/8Zf90G/)  [题解](https://leetcode-cn.com/problems/8Zf90G/solution/tong-guan-jian-2-zhan-by-muluo-2-u1j9/)
+
 #### [剑指 Offer II 037. 小行星碰撞](https://leetcode-cn.com/problems/XagZNi/)  [题解](https://leetcode-cn.com/problems/XagZNi/solution/tong-guan-jian-2-shuang-bai-zhan-by-mulu-8smi/)
 
-
+#### [剑指 Offer II 038. 每日温度](https://leetcode-cn.com/problems/iIQa4I/)  [题解](https://leetcode-cn.com/problems/iIQa4I/solution/tong-guan-jian-2-dan-diao-zhan-by-muluo-9sqik/)
 
 ### 链表
 
@@ -60,6 +62,8 @@
 
 #### [剑指 Offer II 025. 链表中的两数相加](https://leetcode-cn.com/problems/lMSNwu/)  [题解](https://leetcode-cn.com/problems/lMSNwu/solution/tong-guan-jian-2-yuan-di-xiu-gai-mei-you-zhry/)
 
+#### [剑指 Offer II 028. 展平多级双向链表](https://leetcode-cn.com/problems/Qv1Da2/) [题解](https://leetcode-cn.com/problems/Qv1Da2/solution/tong-guan-jian-2-zhan-by-muluo-2-0ba5/)
+
 #### [剑指 Offer II 029. 排序的循环链表](https://leetcode-cn.com/problems/4ueAj6/)  [题解](https://leetcode-cn.com/problems/4ueAj6/solution/tong-guan-jian-2-chao-100-luo-ji-jian-da-reg4/)
 
 
@@ -68,7 +72,11 @@
 
 #### [剑指 Offer II 035. 最小时间差](https://leetcode-cn.com/problems/569nqc/)  [题解](https://leetcode-cn.com/problems/569nqc/solution/tong-guan-jian-2-pai-xu-mei-ju-by-muluo-i8viq/)
 
+#### [剑指 Offer II 075. 数组相对排序](https://leetcode-cn.com/problems/0H97ZC/)  [题解](https://leetcode-cn.com/problems/0H97ZC/solution/tong-guan-jian-2-ji-shu-pai-xu-yuan-di-c-rt0c/)
 
+
+
+#### [剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode-cn.com/problems/xx4gT2/) [题解](https://leetcode-cn.com/problems/xx4gT2/solution/tong-guan-jian-2-chao-100-kuai-su-xuan-z-76jh/)
 
 ### DFS & BFS
 
@@ -122,6 +130,10 @@
 
 
 
+
+
+
+
 ### 滑动窗口：
 
 #### [剑指 Offer II 008. 和大于等于 target 的最短子数组](https://leetcode-cn.com/problems/2VG8Kg/)
@@ -134,9 +146,21 @@
 
 #### [剑指 Offer II 014. 字符串中的变位词](https://leetcode-cn.com/problems/MPnaiL/)  [题解](https://leetcode-cn.com/problems/MPnaiL/solution/tong-guan-jian-2-chao-100-hua-dong-chuan-40yi/)
 
+#### [剑指 Offer II 015. 字符串中的所有变位词](https://leetcode-cn.com/problems/VabMRr/) [题解](https://leetcode-cn.com/problems/VabMRr/solution/tong-guan-jian-2-hua-dong-chuang-kou-by-hx9ld/)
+
 #### [剑指 Offer II 016. 不含重复字符的最长子字符串](https://leetcode-cn.com/problems/wtcaE1/)  [题解](https://leetcode-cn.com/problems/wtcaE1/solution/tong-guan-jian-2-hua-dong-chuang-kou-by-tlv99/)
 
 #### [剑指 Offer II 017. 含有所有字符的最短字符串](https://leetcode-cn.com/problems/M1oyTv/)  [题解](https://leetcode-cn.com/problems/M1oyTv/solution/tong-guan-jian-2-on-hua-dong-chuang-kou-nxzoz/)
+
+
+
+### 二分
+
+#### [剑指 Offer II 068. 查找插入位置](https://leetcode-cn.com/problems/N6YdxV/) [题解](https://leetcode-cn.com/problems/N6YdxV/solution/tong-guan-jian-2-chao-100-er-fen-mo-ban-u1peg/)
+
+#### [剑指 Offer II 070. 排序数组中只出现一次的数字](https://leetcode-cn.com/problems/skFtm2/)  [题解](https://leetcode-cn.com/problems/skFtm2/solution/tong-guan-jian-2-yi-ti-san-jie-er-fen-yi-k4j1/)
+
+
 
 ### 前缀和
 
@@ -163,6 +187,10 @@
 #### [剑指 Offer II 062. 实现前缀树](https://leetcode-cn.com/problems/QC3q1f/)  [题解](https://leetcode-cn.com/problems/QC3q1f/solution/tong-guan-jian-2-chao-100-san-chong-si-l-1ter/)
 
 
+
+### 堆
+
+#### [剑指 Offer II 061. 和最小的 k 个数对](https://leetcode-cn.com/problems/qn8gGX/)  [题解](https://leetcode-cn.com/problems/qn8gGX/solution/tong-guan-jian-2-cong-bao-li-dao-shuang-gry0p/)
 
 
 
