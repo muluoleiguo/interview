@@ -154,6 +154,8 @@
 
 
 
+#### [剑指 Offer II 041. 滑动窗口的平均值](https://leetcode-cn.com/problems/qIsx9U/) [题解](https://leetcode-cn.com/problems/qIsx9U/solution/tong-guan-jian-2-hua-dong-chuang-kou-by-ltgsj/)
+
 ### 二分
 
 #### [剑指 Offer II 068. 查找插入位置](https://leetcode-cn.com/problems/N6YdxV/) [题解](https://leetcode-cn.com/problems/N6YdxV/solution/tong-guan-jian-2-chao-100-er-fen-mo-ban-u1peg/)
@@ -179,6 +181,14 @@
 #### [剑指 Offer II 045. 二叉树最底层最左边的值](https://leetcode-cn.com/problems/LwUNpT/)  [题解](https://leetcode-cn.com/problems/LwUNpT/solution/tong-guan-jian-2-yi-ti-duo-jie-bfs-dfs-b-fgmp/)
 
 #### [剑指 Offer II 046. 二叉树的右侧视图](https://leetcode-cn.com/problems/WNC0Lk/)  [题解](https://leetcode-cn.com/problems/WNC0Lk/solution/tong-guan-jian-2-ji-hu-shuang-bai-bfs-df-igjj/)
+
+#### [剑指 Offer II 047. 二叉树剪枝](https://leetcode-cn.com/problems/pOCWxh/)  [题解](https://leetcode-cn.com/problems/pOCWxh/solution/tong-guan-jian-2-0mschao-100-by-muluo-2-mute/)
+
+#### [剑指 Offer II 049. 从根节点到叶节点的路径数字之和](https://leetcode-cn.com/problems/3Etpl5/) [题解](https://leetcode-cn.com/problems/3Etpl5/solution/tong-guan-jian-2-shen-sou-hui-su-by-mulu-2l2e/)
+
+#### [剑指 Offer II 050. 向下的路径节点之和](https://leetcode-cn.com/problems/6eUYwP/)  [题解](https://leetcode-cn.com/problems/6eUYwP/solution/tong-guan-jian-2-shu-shang-qian-zhui-he-csbsx/)
+
+#### [剑指 Offer II 053. 二叉搜索树中的中序后继](https://leetcode-cn.com/problems/P5rCT8/)  [题解](https://leetcode-cn.com/problems/P5rCT8/solution/tong-guan-jian-2-dfs-by-muluo-2-id3e/)
 
 #### [剑指 Offer II 054. 所有大于等于节点的值之和](https://leetcode-cn.com/problems/w6cpku/)  [题解](https://leetcode-cn.com/problems/w6cpku/solution/tong-guan-jian-2-morrisbian-li-o1-by-mul-9p28/)
 
