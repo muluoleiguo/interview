@@ -92,13 +92,23 @@
 
 #### [剑指 Offer II 084. 含有重复元素集合的全排列 ](https://leetcode-cn.com/problems/7p8L0Z/)  [题解](https://leetcode-cn.com/problems/7p8L0Z/solution/tong-guan-jian-2-shuang-bai-dfs-hui-su-j-rz80/)
 
+#### [剑指 Offer II 086. 分割回文子字符串](https://leetcode-cn.com/problems/M99OJA/)  [题解](https://leetcode-cn.com/problems/M99OJA/solution/tong-guan-jian-2-dfs-dpyu-chu-li-by-mulu-76lf/)
 
+
+
+#### [剑指 Offer II 105. 岛屿的最大面积](https://leetcode-cn.com/problems/ZL6zAn/)   [题解](https://leetcode-cn.com/problems/ZL6zAn/solution/tong-guan-jian-2-bfs-by-muluo-2-5i5k/)
 
 #### [剑指 Offer II 109. 开密码锁](https://leetcode-cn.com/problems/zlDJc7/)   [题解](https://leetcode-cn.com/problems/zlDJc7/solution/tong-guan-jian-2-shuang-bai-cong-yi-xian-ha1y/)
 
 
 
+#### [剑指 Offer II 110. 所有路径](https://leetcode-cn.com/problems/bP4bmD/)  [题解](https://leetcode-cn.com/problems/bP4bmD/solution/tong-guan-jian-2-bfs-hui-su-by-muluo-2-w4gy/)
 
+#### [剑指 Offer II 111. 计算除法](https://leetcode-cn.com/problems/vlzXQL/)   [题解](https://leetcode-cn.com/problems/vlzXQL/solution/tong-guan-jian-2-0mschao-100-dfs-jian-zh-f1mn/)
+
+#### [剑指 Offer II 113. 课程顺序](https://leetcode-cn.com/problems/QA2IGt/)   [题解](https://leetcode-cn.com/problems/QA2IGt/solution/tong-guan-jian-2-tuo-bu-pai-xu-kahnsuan-00wpk/)
+
+#### [剑指 Offer II 115. 重建序列](https://leetcode-cn.com/problems/ur2n8P/)  [题解](https://leetcode-cn.com/problems/ur2n8P/solution/tong-guan-jian-2-tuo-bu-pai-xu-by-muluo-27zcn/)
 
 ### 双指针
 
@@ -214,7 +224,7 @@
 
 #### [剑指 Offer II 085. 生成匹配的括号](https://leetcode-cn.com/problems/IDBivT/)  [题解](https://leetcode-cn.com/problems/IDBivT/solution/tong-guan-jian-2-shuang-bai-yi-ti-shuang-4rxc/)
 
-
+#### [剑指 Offer II 086. 分割回文子字符串](https://leetcode-cn.com/problems/M99OJA/)  [题解](https://leetcode-cn.com/problems/M99OJA/solution/tong-guan-jian-2-dfs-dpyu-chu-li-by-mulu-76lf/)
 
 #### [剑指 Offer II 088. 爬楼梯的最少成本](https://leetcode-cn.com/problems/GzCJIP/)  [题解](https://leetcode-cn.com/problems/GzCJIP/solution/tong-guan-jian-2-shuang-bai-dp-kong-jian-olhi/)
 
@@ -226,7 +236,15 @@
 
 #### [剑指 Offer II 092. 翻转字符](https://leetcode-cn.com/problems/cyJERH/)  [题解](https://leetcode-cn.com/problems/cyJERH/solution/tong-guan-jian-2-dp-qian-zhui-he-hou-zhu-de0s/)
 
+#### [剑指 Offer II 093. 最长斐波那契数列](https://leetcode-cn.com/problems/Q91FMA/)  [题解](https://leetcode-cn.com/problems/Q91FMA/solution/tong-guan-jian-2-dp-hash-by-muluo-2-x6lk/)
+
+#### [剑指 Offer II 094. 最少回文分割](https://leetcode-cn.com/problems/omKAoA/)  [题解](https://leetcode-cn.com/problems/omKAoA/solution/tong-guan-jian-2-chai-fen-wei-liang-ge-z-kp4x/)
+
 #### [剑指 Offer II 095. 最长公共子序列](https://leetcode-cn.com/problems/qJnOS7/)  [题解](https://leetcode-cn.com/problems/qJnOS7/solution/tong-guan-jian-2-shuang-bai-dp-by-muluo-iacjm/)
+
+#### [剑指 Offer II 096. 字符串交织](https://leetcode-cn.com/problems/IY6buf/)   [题解](https://leetcode-cn.com/problems/IY6buf/solution/tong-guan-jian-2-shuang-bai-dp-lu-jing-y-khk9/)
+
+#### [剑指 Offer II 097. 子序列的数目](https://leetcode-cn.com/problems/21dk04/)  [题解](https://leetcode-cn.com/problems/21dk04/solution/tong-guan-jian-2-xiang-jie-ji-hu-shuang-g1jnd/)
 
 #### [剑指 Offer II 098. 路径的数目](https://leetcode-cn.com/problems/2AoeFn/)  [题解](https://leetcode-cn.com/problems/2AoeFn/solution/tong-guan-jian-2-chao-100-dp-by-muluo-2-ib1t/)
 
@@ -234,7 +252,7 @@
 
 #### [剑指 Offer II 100. 三角形中最小路径之和](https://leetcode-cn.com/problems/IlPe0q/)  [题解](https://leetcode-cn.com/problems/IlPe0q/solution/tong-guan-jian-2-shuang-bai-dp-by-muluo-9jsha/)
 
-
+#### [剑指 Offer II 101. 分割等和子串](https://leetcode-cn.com/problems/NUPfPr/)  [题解](https://leetcode-cn.com/problems/NUPfPr/solution/tong-guan-jian-2-bei-bao-kong-jian-on-by-vxph/)
 
 #### [剑指 Offer II 104. 排列的数目](https://leetcode-cn.com/problems/D0F0SV/) [题解](https://leetcode-cn.com/problems/D0F0SV/solution/tong-guan-jian-2-shuang-bai-bei-bao-dp-b-f33v/)
 
