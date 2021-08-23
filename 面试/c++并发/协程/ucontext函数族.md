@@ -49,11 +49,11 @@ typedef struct {
 
 这几个 API 的作用：
 
-### `getcontext()`
+### `getcontext(ucontext_t *ucp)`
 
 将当前的 context 保存在 `ucp` 中。成功返回 0，错误时返回 -1 并设置 errno；
 
-### `setcontext()`
+### `setcontext(const ucontext_t *ucp)`
 
 恢复用户上下文为 `ucp` 所指向的上下文，成功调用**不用返回**。错误时返回 -1 并设置 errno。 `ucp` 所指向的上下文应该是 `getcontext()` 或者 `makecontext()` 产生。 如果上下文是由 `getcontext()` 产生，则切换到该上下文后，程序的执行在 `getcontext()` 后继续执行。比如下面这个例子每隔 1 秒将打印 1 个字符串：
 
@@ -72,7 +72,7 @@ int main(void)
 
 
 
-如果上下文是由 `makecontext()` 产生，切换到该上下文，程序的执行切换到 `makecontext()` 调用所指定的第二个参数的函数上。当函数返回后，如果 `ucp.uc_link` 为 NULL，则结束运行；反之跳转到对应的上下文。
+如果上下文是由 `makecontext(ucontext_t *ucp, void (*func)(void), int argc, ...)` 产生，切换到该上下文，程序的执行切换到 `makecontext()` 调用所指定的第二个参数的函数上。当函数返回后，如果 `ucp.uc_link` 为 NULL，则结束运行；反之跳转到对应的上下文。
 
 ```c
 void foo(void)
@@ -147,7 +147,7 @@ int main(void)
 
 修改 `ucp` 所指向的上下文；
 
-### `swapcontext()`
+### `swapcontext(ucontext_t *oucp, const ucontext_t *ucp)`
 
 保存当前的上下文到 `ocup`，并且设置到 `ucp` 所指向的上下文。成功返回 0，失败返回 -1 并设置 errno。
 

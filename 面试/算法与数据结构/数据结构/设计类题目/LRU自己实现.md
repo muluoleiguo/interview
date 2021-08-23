@@ -101,7 +101,10 @@ public:
                 m[key] = tmp;
             } else {
                 // 已经满了需要把最久没有访问的结点删除，然后放在末尾，并记录hash
-                m.erase(l.Remove(l.dummyHead->next)->key_);
+                ListNode* del = l.Remove(l.dummyHead->next);
+                m.erase(del->key_);
+                // 避免内存泄露
+                delete(del);
                 l.PushBack(tmp);
                 m[tmp->key_] = tmp;
             }

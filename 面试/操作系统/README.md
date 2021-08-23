@@ -166,6 +166,10 @@
 
 8.[linux内核Timer机制](Linux/8.md)
 
+### 9.进程调度算法和数据结构
+
+[Linux内核浅析-进程调度的算法和数据结构](Linux/进程调度的算法和数据结构.md)
+
 ## Windows
 
 1.[window消息机制](Windows/1.md)

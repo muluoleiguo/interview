@@ -1,0 +1,4 @@
+由于brpc中引入了bthread，如果在bthread中使用了mutex，那么将会挂起当前pthread，导致该bthread_worker无法执行其他bthread，因此类似pthread和futex的关系，brpc引入butex来实现bthread粒度的挂起和唤醒。
+
+首先看下butex中使用到的FastPthreadMutex，FastPthreadMutex是基于futex实现的pthread粒度的锁，当竞争不激烈时，lock和unlock操作都是通过修改一个用户态的atomic来实现，只有当竞争激烈的时候才会陷入内核进行挂起和wake。
+
