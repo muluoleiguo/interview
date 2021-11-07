@@ -20,131 +20,93 @@
     -> 和 . 优先级1 和() 一个级别的
     成员选择（指针）
     对象指针->成员名
+    
+
+
+
+这个实现不太对劲
 
 ```c++
-#include <iostream>
-#include <memory>
-
-
 template<typename T>
-class SharedPtr
-{
+class SharedPtr {
 private:
-	T* _ptr;
-	int* _count; //reference couting 指向引用计数的指针
-
+    T* m_ptr;
+    int* m_count; //reference couting 指向引用计数的指针
 public:
-	//构造函数
-	SharedPtr(T* ptr = nullptr) : _ptr(ptr)
-	{
-		if (_ptr)
-		{
-			_count = new int(1);
-		}
-		else
-		{
-			_count = new int(0);
-		}
-	}
-
-	//拷贝构造
-	SharedPtr(const SharedPtr& ptr)
-	{
-
-        std::cout << "SharedPtr(const SharedPtr& ptr)" << std::endl;
-		if (this != &ptr)
-		{
-			this->_ptr = ptr._ptr;
-			this->_count = ptr._count;
-			(*this->_count)++;
-		}
-	}
-    
-    //移动构造
-    SharedPtr(SharedPtr&& other) {
-        this->_ptr = std::move(other._ptr);
-        this->_count = std::move(other._count);
-        other._count == nullptr;
+    SharedPtr(T* ptr = nullptr) : m_ptr(ptr) {
+        if (m_ptr == nullptr) 
+            m_count = new int(0);
+        else 
+            m_count = new int(1);                 
+    }
+    // 这种意外的情况真的可能发生吗？
+    SharedPtr(const SharedPtr& ptr) {
+        if (this != &ptr) {
+            this->m_ptr = ptr.m_ptr;
+            this->m_count = ptr.m_count;
+            (*this->m_count)++;
+        }
     }
     
-    // 移动赋值重载	
-    SharedPtr& operator=(SharedPtr && rhs) {
-        if(_count != rhs._count) {
-            std::swap(this, rhs);
-        }
+    // 移动构造
+    SharedPtr(SharedPtr&& rhs) {
+        this->m_ptr = rhs.m_ptr;
+        this->m_count = rhs.m_count;
+        rhs.m_ptr = nullptr;
+        rhs.m_count = nullptr;
+    }
+    // 移动赋值
+    SharedPtr& operator=(SharedPtr&& rhs) {
+        if (m_count != rhs.m_count)
+            swap(this, rhs);
         return *this;
     }
     
-	//重载operator=
-	SharedPtr& operator=(const SharedPtr& ptr)
-	{
-		std::cout << "operator=" << std::endl;
-		if (this->_ptr == ptr._ptr) {
-			return *this;
-		}
-
-        //现在需要考虑初始化为nullptr的 调用 operator = 
-        //因为 this->_count 是new 在堆上的int ，不管就内存泄露了
-        
-		//左计数减一
-		(*this->_count)--;
-        //nullptr 的 count 为 -1，但delete nullptr 无影响，但count需要delete
-		if (*this->_count <= 0) {
-			delete this->_ptr;
-			delete this->_count;
-			std::cout << "operator= 过程释放" << std::endl;
-		}
-        //右计数加一
-		this->_ptr = ptr._ptr;
-		this->_count = ptr._count;
-		(*this->_count)++;
-		return *this;
-	}
-	
-	//析构函数
-	~SharedPtr()
-	{
-		//因为引用计数是指针，当智能指针声明为空时，仍需释放
-		
-		if (*this->_count == 0) {
-			delete this->_ptr;
-			delete this->_count;
-			std::cout << "释放" << std::endl;
-		}
-		else
-			(*this->_count)--;
-		if (*this->_count == 0) {
-			delete this->_ptr;
-			delete this->_count;
-			std::cout << "释放" << std::endl;
-		}
-	}
-
-	//operator*重载
-	T& operator*()
-	{
-	    assert(this->_ptr != nullptr);
-		return *(this->_ptr);
-	}
-
-	//operator->重载
-	T& operator->()
-	{
-	    assert(this->_ptr != nullptr);
-		return this->_ptr;
-	}
-
-	//return reference couting
-	int use_count const()
-	{
-		return *this->_count;
-	}
-	
-	bool unique() const{
-	    return (*this->_count) == 1;
-	}
-};
-
+    SharedPtr& operator=(const SharedPtr& rhs) {
+        if (this->m_ptr == rhs.m_ptr) {
+            return *this;
+        }
+        // 考虑初始化为nullptr的SharedPtr调用operator=
+        // 因为this->m_count在堆上，不管不好
+        // 左计数减1
+        (*this->m_count)--;
+        // nullptr 的 count 为 -1 ， 但是delete nullptr可以
+        if (*this->m_count <= 0) {
+            delete this->m_ptr;
+            delete this->m_count;
+        }
+        // 右计数加1
+        this->m_ptr = rhs.m_ptr;
+        this->m_count = rhs.m_count;
+        (*this->m_count)++;
+        return *this;
+    }
+    
+    ~SharedPtr() {
+        (*this->m_count)--;
+        if (*this->m_count <= 0) {
+            delete this->m_ptr;
+            delete this->m_count;
+        }            
+    }
+    T& operator*() {
+        assert(this->m_ptr != nullptr);
+        return *(this->m_ptr);
+    }
+    
+    T& operator->() {
+        assert(this->m_ptr != nullptr);
+        return this->m_ptr;
+    }
+    
+    int useCount const() {
+        return *this->m_count;
+    }
+    
+    bool unique() const {
+        return (*this->m_count) == 1;
+    }
+}
 int main() {
 	{
 
